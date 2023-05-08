@@ -1,0 +1,7 @@
+.unorderedList {
+  @apply flex justify-between items-center list-none text-base;
+
+  li {
+    @apply p-6;
+  }
+}

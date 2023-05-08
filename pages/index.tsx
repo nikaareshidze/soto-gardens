@@ -1,4 +1,4 @@
-import { OfferBanner } from "@/components/offer-banner";
+import { Header, OfferBanner } from "@/components";
 import Head from "next/head";
 
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
       <div>
         <OfferBanner />
+        <Header />
       </div>
     </>
   );

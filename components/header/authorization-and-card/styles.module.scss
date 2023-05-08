@@ -1,0 +1,7 @@
+.authAndCardContainer {
+  @apply flex justify-between items-center;
+
+  .authAndCardItems {
+    @apply p-6;
+  }
+}
