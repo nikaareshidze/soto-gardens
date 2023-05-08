@@ -1,0 +1,7 @@
+.offerBannerContainer {
+  @apply w-full h-6 bg-[#063937] text-white flex justify-center items-center;
+
+  .offerBannerTitle {
+    @apply text-xs uppercase font-normal;
+  }
+}
