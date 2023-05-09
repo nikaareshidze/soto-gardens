@@ -1,4 +1,5 @@
 import {
+  ExploreInPicture,
   ExploreOurCollection,
   Header,
   MainImageCarrousel,
@@ -19,6 +20,7 @@ export default function Home() {
         <Header />
         <MainImageCarrousel />
         <ExploreOurCollection />
+        <ExploreInPicture />
       </div>
     </>
   );

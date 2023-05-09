@@ -1,0 +1,31 @@
+.exploreInPictureContainer {
+  @apply flex px-6 py-4 w-full mt-8;
+
+  .picture {
+    @apply w-8/12;
+
+    img {
+      @apply rounded-xl;
+    }
+  }
+
+  .product {
+    @apply w-4/12 p-2;
+
+    .productContainer {
+      @apply w-72;
+
+      img {
+        @apply rounded-xl object-cover;
+      }
+
+      .productName {
+        @apply text-2xl font-bold w-full mt-2;
+      }
+
+      .productPrice {
+        @apply italic text-sm font-normal w-full mt-1;
+      }
+    }
+  }
+}
