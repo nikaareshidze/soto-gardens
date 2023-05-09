@@ -1,8 +1,12 @@
 import { ShopButton } from "@/components/shared";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./styles.module.scss";
 
-export default function CallToAction() {
+type currentIndexProps = {
+  currentIndex: number;
+};
+
+export default function CallToAction({ currentIndex }: currentIndexProps) {
   const [ctaText, setCtaText] = useState([
     {
       titleFirstLine: "Welcome To",
@@ -22,31 +26,26 @@ export default function CallToAction() {
       descriptionFirstLine: "Timeless, seasonal, traditional bouquets are",
       descriptionSecondLine: "now available for national delivery.",
     },
+    {
+      titleFirstLine: "Explore Soto",
+      titleSecondLine: "White",
+      descriptionFirstLine: "",
+      descriptionSecondLine: "",
+    },
   ]);
-  const [currentIndex, setCurrentIndex] = useState<number>(0);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentIndex((currentIndex) => (currentIndex + 1) % ctaText.length);
-    }, 5000);
-
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, [ctaText.length]);
 
   return (
     <div className={styles.callToAction}>
       <h1 className={styles.title}>
-        {`${ctaText[currentIndex].titleFirstLine}`}
+        {ctaText[currentIndex].titleFirstLine}
         <br />
-        {`${ctaText[currentIndex].titleSecondLine}`}
+        {ctaText[currentIndex].titleSecondLine}
       </h1>
       {ctaText[currentIndex].descriptionFirstLine !== "" && (
         <p className={styles.description}>
-          {`${ctaText[currentIndex].descriptionFirstLine}`}
+          {ctaText[currentIndex].descriptionFirstLine}
           <br />
-          {`${ctaText[currentIndex].descriptionSecondLine}`}
+          {ctaText[currentIndex].descriptionSecondLine}
         </p>
       )}
       <ShopButton>Shop Now</ShopButton>
