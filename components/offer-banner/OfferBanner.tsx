@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 export default function OfferBanner() {
   const [offerText, setOfferText] = useState<string[]>([
-    " Sign up to our newsletter for 10% off",
+    "Sign up to our newsletter for 10% off",
     "Free delivery for orders from 50$",
     "For our Border collections Soto hand deliver within Greater London and the home counties",
   ]);
