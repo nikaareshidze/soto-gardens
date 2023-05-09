@@ -10,7 +10,7 @@
   }
 
   .product {
-    @apply w-4/12 p-2;
+    @apply w-4/12 p-2 bg-[#f9f7f2] flex justify-center items-center;
 
     .productContainer {
       @apply w-72;

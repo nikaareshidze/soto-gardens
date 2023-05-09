@@ -12,7 +12,7 @@ export default function OfferBanner() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((currentIndex) => (currentIndex + 1) % offerText.length);
-    }, 5000);
+    }, 4000);
 
     return () => {
       clearInterval(intervalId);

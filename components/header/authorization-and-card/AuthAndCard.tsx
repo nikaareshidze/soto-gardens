@@ -5,9 +5,9 @@ import { TbGardenCart } from "react-icons/tb";
 export default function AuthAndCard() {
   return (
     <div className={styles.authAndCardContainer}>
-      <h1 className={styles.authAndCardItems}>Account</h1>
-      <CiSearch className={styles.authAndCardItems} />
-      <TbGardenCart className={styles.authAndCardItems} />
+      <h1>Account</h1>
+      <CiSearch size={20} />
+      <TbGardenCart size={20} />
     </div>
   );
 }
