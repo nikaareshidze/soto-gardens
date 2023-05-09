@@ -1,0 +1,19 @@
+.exploreContainer {
+  @apply w-full h-full flex justify-around bg-[#f9f7f2] py-14;
+
+  .ctaContainer {
+    @apply flex flex-col justify-center gap-8 w-1/4;
+
+    .ctaTitle {
+      @apply text-4xl;
+    }
+
+    .ctaDescription {
+      @apply text-lg;
+    }
+  }
+
+  .productsContainer {
+    @apply w-3/4 bg-red-300 h-full;
+  }
+}

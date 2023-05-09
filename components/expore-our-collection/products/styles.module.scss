@@ -1,0 +1,19 @@
+.productsListContainer {
+  @apply flex gap-8;
+
+  .productContainer {
+    @apply w-72;
+
+    img {
+      @apply rounded-xl object-cover;
+    }
+
+    .productName {
+      @apply text-2xl font-bold w-full mt-2;
+    }
+
+    .productPrice {
+      @apply italic text-sm font-normal w-full mt-1;
+    }
+  }
+}

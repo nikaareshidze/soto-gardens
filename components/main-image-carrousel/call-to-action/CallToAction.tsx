@@ -1,4 +1,4 @@
-import { ShopButton } from "@/components/shared";
+import { ShopButtonWhite } from "@/components/shared";
 import { useState } from "react";
 import styles from "./styles.module.scss";
 
@@ -48,7 +48,7 @@ export default function CallToAction({ currentIndex }: currentIndexProps) {
           {ctaText[currentIndex].descriptionSecondLine}
         </p>
       )}
-      <ShopButton>Shop Now</ShopButton>
+      <ShopButtonWhite>Shop Now</ShopButtonWhite>
     </div>
   );
 }
