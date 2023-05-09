@@ -1,3 +1,7 @@
 .mainCarrouselContainer {
   @apply relative inline-block;
+
+  .swipeButtons {
+    @apply absolute bottom-10 right-16 flex gap-2;
+  }
 }
