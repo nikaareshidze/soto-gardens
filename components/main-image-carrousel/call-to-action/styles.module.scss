@@ -2,10 +2,10 @@
   @apply absolute bottom-10 left-16 text-white;
 
   .title {
-    @apply text-7xl;
+    @apply text-7xl mb-3;
   }
 
   .description {
-    @apply text-lg my-7;
+    @apply text-lg mb-7;
   }
 }
