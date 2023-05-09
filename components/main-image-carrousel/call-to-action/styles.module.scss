@@ -1,0 +1,11 @@
+.callToAction {
+  @apply absolute bottom-10 left-16 text-white;
+
+  .title {
+    @apply text-7xl;
+  }
+
+  .description {
+    @apply text-lg my-7;
+  }
+}

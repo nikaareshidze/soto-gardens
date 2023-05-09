@@ -1,4 +1,4 @@
-import { Header, OfferBanner } from "@/components";
+import { Header, MainImageCarrousel, OfferBanner } from "@/components";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,6 +12,7 @@ export default function Home() {
       <div>
         <OfferBanner />
         <Header />
+        <MainImageCarrousel />
       </div>
     </>
   );
