@@ -4,6 +4,7 @@ import {
   Header,
   MainImageCarrousel,
   OfferBanner,
+  ShopPlantsBy,
 } from "@/components";
 import Head from "next/head";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <MainImageCarrousel />
         <ExploreOurCollection />
         <ExploreInPicture />
+        <ShopPlantsBy />
       </div>
     </>
   );
