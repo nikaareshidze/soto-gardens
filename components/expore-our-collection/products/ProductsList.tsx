@@ -55,6 +55,7 @@ export default function ProductsList() {
               height="380px"
               onMouseEnter={() => changeUrl(product.id)}
               onMouseLeave={() => changeUrl(product.id)}
+              alt=""
             />
           ) : (
             <img
@@ -63,6 +64,7 @@ export default function ProductsList() {
               height="380px"
               onMouseEnter={() => changeUrl(product.id)}
               onMouseLeave={() => changeUrl(product.id)}
+              alt=""
             />
           )}
           <h2 className={styles.productName}>{product.name}</h2>

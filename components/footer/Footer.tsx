@@ -6,6 +6,7 @@ export default function Footer() {
         width="100%"
         height="507px"
         style={{ objectFit: "cover" }}
+        alt="footer"
       />
       <div
         style={{

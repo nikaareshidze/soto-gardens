@@ -66,6 +66,7 @@ export default function ExploreInPicture() {
                 height="380px"
                 onMouseEnter={() => changeUrl(products[0].id)}
                 onMouseLeave={() => changeUrl(products[0].id)}
+                alt=""
               />
             ) : (
               <img
@@ -74,6 +75,7 @@ export default function ExploreInPicture() {
                 height="380px"
                 onMouseEnter={() => changeUrl(products[0].id)}
                 onMouseLeave={() => changeUrl(products[0].id)}
+                alt=""
               />
             )}
             <p className={styles.productPrice}>N: {products[0].id}</p>
@@ -89,6 +91,7 @@ export default function ExploreInPicture() {
                 height="380px"
                 onMouseEnter={() => changeUrl(products[1].id)}
                 onMouseLeave={() => changeUrl(products[1].id)}
+                alt=""
               />
             ) : (
               <img
@@ -97,6 +100,7 @@ export default function ExploreInPicture() {
                 height="380px"
                 onMouseEnter={() => changeUrl(products[1].id)}
                 onMouseLeave={() => changeUrl(products[1].id)}
+                alt=""
               />
             )}
             <p className={styles.productPrice}>N: {products[1].id}</p>
@@ -112,6 +116,7 @@ export default function ExploreInPicture() {
                 height="380px"
                 onMouseEnter={() => changeUrl(products[2].id)}
                 onMouseLeave={() => changeUrl(products[2].id)}
+                alt=""
               />
             ) : (
               <img
@@ -120,6 +125,7 @@ export default function ExploreInPicture() {
                 height="380px"
                 onMouseEnter={() => changeUrl(products[2].id)}
                 onMouseLeave={() => changeUrl(products[2].id)}
+                alt=""
               />
             )}
             <p className={styles.productPrice}>N: {products[2].id}</p>

@@ -23,6 +23,7 @@ export default function Picture({ pictures, setPictures }: any) {
       <img
         src="https://cdn.shopify.com/s/files/1/0552/9331/3078/files/Soto_Green_Lifestyle-3_3000x3000.jpg?v=1649014681"
         width="100%"
+        alt=""
       />
       <button
         className={styles.button1}
