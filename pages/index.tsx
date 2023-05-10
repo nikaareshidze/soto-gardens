@@ -1,6 +1,7 @@
 import {
   ExploreInPicture,
   ExploreOurCollection,
+  Footer,
   Header,
   MainImageCarrousel,
   OfferBanner,
@@ -25,6 +26,7 @@ export default function Home() {
         <ExploreInPicture />
         <ShopPlantsBy />
         <PartnerBrands />
+        <Footer />
       </div>
     </>
   );

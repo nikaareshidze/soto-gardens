@@ -6,3 +6,4 @@ export * from "./expore-our-collection";
 export * from "./explore-in-picture";
 export * from "./shop-plants-by";
 export * from "./partner-brands";
+export * from "./footer";
